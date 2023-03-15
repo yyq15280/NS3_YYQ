@@ -17,7 +17,6 @@ using namespace ns3;
 using namespace std;
 
 NS_LOG_COMPONENT_DEFINE("APCC");
-
 static Ptr<OutputStreamWrapper> rttStream;
 static void RttTracer(Time oldval, Time newval)
 {
